@@ -70,4 +70,15 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_equal flash[:notice], 'Tu producto se ha actualizado correctamente'
   end
 
+  test 'does not allow to update a new product with empty fields' do
+    patch product_path(products(:ps4)), params: {
+      product: {
+        title: '',
+        description: 'ps4 en buen estado',
+        price: 200
+
+    }
+  }
+    assert_response :unprocessable_entity
+  end
 end
