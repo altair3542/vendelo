@@ -55,6 +55,7 @@ en:
       edit: 'Edit'
       delete: 'Delete'
       confirm: 'Are you sure?'
+      all: 'All'
     create:
       created: 'Product created'
     update:

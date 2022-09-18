@@ -24,5 +24,9 @@ module Vendelo
 
     # default language
     config.i18n.default_locale = :es
+
+    # allow multiqueries
+    config.active_record.async_query_executor = :global_thread_pool
+
   end
 end

@@ -23,6 +23,7 @@ es:
       edit: 'Editar'
       delete: 'Eliminar'
       confirm: '¿Estás seguro?'
+      all: 'Todos'
     create:
       created: 'Producto creado'
     update:
