@@ -5,7 +5,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
   #   assert true
   # end
   test 'render a list of products' do
-    get '/products'
+    get '/'
     assert_response :success
     assert_select '.product', 2
   end
