@@ -31,3 +31,33 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    models:
+      product: Product
+    attributes:
+      product:
+        name: Name
+        description: Description
+        price: Price
+        stock: Stock
+        category: Category
+        image: Image
+  common:
+    confirm: "Are you sure?"
+  products:
+    edit:
+      title: 'Edit product'
+    new:
+      title: 'Add product'
+    index:
+      title: 'Products'
+      new: 'New product'
+      edit: 'Edit'
+      delete: 'Delete'
+      confirm: 'Are you sure?'
+    create:
+      created: 'Product created'
+    update:
+      updated: 'Product updated'
+    destroy:
+      destroyed: 'Product deleted'
