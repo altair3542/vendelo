@@ -33,7 +33,9 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
     }
   }
-    assert_redirected_to /products\/\d+/
+    assert_redirected_to products_path
+    assert_equal flash[:notice], 'Tu producto se ha creado correctamente'
+
   end
 
 
