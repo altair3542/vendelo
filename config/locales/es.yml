@@ -24,6 +24,8 @@ es:
       delete: 'Eliminar'
       confirm: '¿Estás seguro?'
       all: 'Todos'
+      min_price: 'Precio mínimo'
+      max_price: 'Precio máximo'
     create:
       created: 'Producto creado'
     update:
