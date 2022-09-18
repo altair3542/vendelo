@@ -4,8 +4,16 @@ ps4:
   title: ps4 fat
   description: ps4 en buen estado
   price: 150
+  category: videogames
 
 switch:
   title: Nintento Swtich
   description: le falla el lector de la tarjeta sd
   price: 195
+  category: videogames
+
+air:
+  title: Macbook Air
+  description: Macbook Air 2019
+  price: 1200
+  category: computers
