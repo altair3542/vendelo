@@ -29,3 +29,20 @@ es:
       updated: 'Producto actualizado'
     destroy:
       destroyed: 'Producto eliminado'
+  categories:
+    edit:
+      title: 'Editar categoría'
+    new:
+      title: 'Añadir categoría'
+    index:
+      title: 'Categorías'
+      new: 'Nueva categoría'
+      edit: 'Editar'
+      delete: 'Eliminar'
+      confirm: '¿Estás seguro?'
+    create:
+      created: 'Categoría creada'
+    update:
+      updated: 'Categoría actualizada'
+    destroy:
+      destroyed: 'Categoría eliminada'

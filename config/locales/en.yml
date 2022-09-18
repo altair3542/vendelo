@@ -61,3 +61,20 @@ en:
       updated: 'Product updated'
     destroy:
       destroyed: 'Product deleted'
+  categories:
+    edit:
+      title: 'Edit category'
+    new:
+      title: 'Add category'
+    index:
+      title: 'Categories'
+      new: 'New category'
+      edit: 'Edit'
+      delete: 'Delete'
+      confirm: 'Are you sure?'
+    create:
+      created: 'Category created'
+    update:
+      updated: 'Category updated'
+    destroy:
+      destroyed: 'Category deleted'
