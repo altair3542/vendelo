@@ -33,15 +33,15 @@ en:
   hello: "Hello world"
   activerecord:
     models:
-      product: Product
+      product: 'Product'
     attributes:
       product:
-        name: Name
-        description: Description
-        price: Price
-        stock: Stock
-        category: Category
-        image: Image
+        name: 'Name'
+        description: 'Description'
+        price: 'Price'
+        stock: 'Stock'
+        category: 'Category'
+        image: 'Image'
   common:
     confirm: "Are you sure?"
   products:
@@ -58,6 +58,7 @@ en:
       all: 'All'
       min_price: 'Min price'
       max_price: 'Max price'
+      query_text: 'What do you want to search?'
     create:
       created: 'Product created'
     update:

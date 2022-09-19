@@ -1,15 +1,15 @@
 es:
   activerecord:
     models:
-      product: Producto
+      product: 'Producto'
     attributes:
       product:
-        name: Nombre
-        description: Descripción
-        price: Precio
-        stock: Stock
-        category: Categoría
-        image: Imagen
+        name: 'Nombre'
+        description: 'Descripción'
+        price: 'Precio'
+        stock: 'Stock'
+        category: 'Categoría'
+        image: 'Imagen'
   common:
     confirm: '¿Estás seguro?'
   products:
@@ -26,6 +26,7 @@ es:
       all: 'Todos'
       min_price: 'Precio mínimo'
       max_price: 'Precio máximo'
+      query_text: 'Qué quieres buscar?'
     create:
       created: 'Producto creado'
     update:
